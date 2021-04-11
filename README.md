@@ -4,6 +4,7 @@ A small tool to find gaps in the Database.
 ## Info
 
 | Branch | Supported Database |
+| :- | :- |
 | Master | MySQL 8.0 |
 | 5.7 | ≤ MySQL 5.7 |
 
