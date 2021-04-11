@@ -30,9 +30,9 @@
         {
             this.ResultBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
+            //
             // ResultBox
-            // 
+            //
             this.ResultBox.AcceptsReturn = true;
             this.ResultBox.AcceptsTab = true;
             this.ResultBox.Location = new System.Drawing.Point(13, 13);
@@ -43,9 +43,9 @@
             this.ResultBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.ResultBox.Size = new System.Drawing.Size(186, 237);
             this.ResultBox.TabIndex = 0;
-            // 
+            //
             // ResultForm
-            // 
+            //
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateGray;
