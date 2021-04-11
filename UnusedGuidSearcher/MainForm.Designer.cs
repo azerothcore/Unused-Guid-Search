@@ -38,18 +38,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.GuidCountUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.minNumericUpDown)).BeginInit();
             this.SuspendLayout();
-            // 
+            //
             // TableComboBox
-            // 
+            //
             this.TableComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.TableComboBox.FormattingEnabled = true;
             this.TableComboBox.Location = new System.Drawing.Point(12, 12);
             this.TableComboBox.Name = "TableComboBox";
             this.TableComboBox.Size = new System.Drawing.Size(187, 21);
             this.TableComboBox.TabIndex = 0;
-            // 
+            //
             // GuidCountUpDown
-            // 
+            //
             this.GuidCountUpDown.Location = new System.Drawing.Point(129, 50);
             this.GuidCountUpDown.Maximum = new decimal(new int[] {
             10000,
@@ -69,9 +69,9 @@
             0,
             0,
             0});
-            // 
+            //
             // GoButton
-            // 
+            //
             this.GoButton.Location = new System.Drawing.Point(112, 78);
             this.GoButton.Name = "GoButton";
             this.GoButton.Size = new System.Drawing.Size(87, 20);
@@ -79,9 +79,9 @@
             this.GoButton.Text = "Go";
             this.GoButton.UseVisualStyleBackColor = true;
             this.GoButton.Click += new System.EventHandler(this.GoButtonClick);
-            // 
+            //
             // consecutiveCheckBox
-            // 
+            //
             this.consecutiveCheckBox.AutoSize = true;
             this.consecutiveCheckBox.ForeColor = System.Drawing.Color.White;
             this.consecutiveCheckBox.Location = new System.Drawing.Point(12, 51);
@@ -90,9 +90,9 @@
             this.consecutiveCheckBox.TabIndex = 7;
             this.consecutiveCheckBox.Text = "Consecutive";
             this.consecutiveCheckBox.UseVisualStyleBackColor = true;
-            // 
+            //
             // label1
-            // 
+            //
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(109, 52);
@@ -100,9 +100,9 @@
             this.label1.Size = new System.Drawing.Size(14, 13);
             this.label1.TabIndex = 8;
             this.label1.Text = "#";
-            // 
+            //
             // label2
-            // 
+            //
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(9, 83);
@@ -110,9 +110,9 @@
             this.label2.Size = new System.Drawing.Size(13, 13);
             this.label2.TabIndex = 9;
             this.label2.Text = ">";
-            // 
+            //
             // minNumericUpDown
-            // 
+            //
             this.minNumericUpDown.Location = new System.Drawing.Point(28, 78);
             this.minNumericUpDown.Maximum = new decimal(new int[] {
             10000000,
@@ -122,9 +122,9 @@
             this.minNumericUpDown.Name = "minNumericUpDown";
             this.minNumericUpDown.Size = new System.Drawing.Size(69, 20);
             this.minNumericUpDown.TabIndex = 10;
-            // 
+            //
             // MainForm
-            // 
+            //
             this.AcceptButton = this.GoButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
