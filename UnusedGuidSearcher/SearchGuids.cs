@@ -17,7 +17,6 @@ namespace UnusedGuidSearcher
             {"`waypoint_scripts`", "`id`"},
             {"`pool_template`", "`entry`"},
             {"`game_event`", "`eventEntry`"},
-            {"`creature_equip_template`", "`CreatureID`"},
             {"`gossip_menu`", "`MenuID`"},
             {"`npc_text`", "`ID`"},
             {"`page_text`", "`ID`"},
