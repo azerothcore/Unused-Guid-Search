@@ -3,13 +3,9 @@ A small tool to find gaps in the Database.
 
 ## Info
 
-Currently it is updated to:
-
-.NET Framework version 4.8
-
-MySql.Data 8.0.19
-
-This tool only works on MySQL 8.0 servers.
+| Branch | Supported Database |
+| Master | MySQL 8.0 |
+| 5.7 | ≤ MySQL 5.7 |
 
 ## Authors
 
