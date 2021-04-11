@@ -180,7 +180,7 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "LoginForm";
-            this.Text = "TC Unused Guid Search";
+            this.Text = "Unused Guid Search";
             this.Load += new System.EventHandler(this.LoginFormLoad);
             this.ResumeLayout(false);
             this.PerformLayout();

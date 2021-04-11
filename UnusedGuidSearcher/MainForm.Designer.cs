@@ -139,7 +139,7 @@
             this.Controls.Add(this.TableComboBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "MainForm";
-            this.Text = "TC Unused Guid Search";
+            this.Text = "Unused Guid Search";
             this.Load += new System.EventHandler(this.MainFormLoad);
             ((System.ComponentModel.ISupportInitialize)(this.GuidCountUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.minNumericUpDown)).EndInit();

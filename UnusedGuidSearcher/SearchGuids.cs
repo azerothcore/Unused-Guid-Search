@@ -16,6 +16,10 @@ namespace UnusedGuidSearcher
             {"`pool_template`", "`entry`"},
             {"`game_event`", "`eventEntry`"},
             {"`creature_equip_template`", "`CreatureID`"},
+            {"`gossip_menu`", "`MenuID`"},
+            {"`npc_text`", "`ID`"},
+            {"`page_text`", "`ID`"},
+            {"`acore_string`", "`entry`"},
             {"`trinity_string`", "`entry`"},
         };
 

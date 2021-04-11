@@ -53,7 +53,7 @@
             this.Controls.Add(this.ResultBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "ResultForm";
-            this.Text = "TC Unused Guid Search";
+            this.Text = "Unused Guid Search";
             this.Load += new System.EventHandler(this.ResultFormLoad);
             this.ResumeLayout(false);
             this.PerformLayout();
