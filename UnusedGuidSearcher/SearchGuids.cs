@@ -10,7 +10,9 @@ namespace UnusedGuidSearcher
         // table name, primary key
         private static readonly Dictionary<string, string> SupportedTables = new Dictionary<string, string>
         {
+            {"`creature_template`", "`entry`"},
             {"`creature`", "`guid`"},
+            {"`gameobject_template`", "`entry`"},
             {"`gameobject`", "`guid`"},
             {"`waypoint_scripts`", "`id`"},
             {"`pool_template`", "`entry`"},
