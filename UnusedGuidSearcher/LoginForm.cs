@@ -20,16 +20,8 @@ namespace UnusedGuidSearcher
             InitializeComponent();
         }
 
-        private void LoginFormLoad(object sender, EventArgs e)
+        private void IsPipeCheckboxChecked()
         {
-            UserBox.Text = Settings.Default.User;
-            PasswordBox.Text = Settings.Default.Password;
-            DBBox.Text = Settings.Default.DB;
-            HostBox.Text = Settings.Default.Host;
-            PipeBox.Text = Settings.Default.Pipe;
-            PortBox.Text = Settings.Default.Port;
-
-            // sets the checkbox for a piped connection if the user has it saved in the settings
             if (IsUsingNamedPipeCheckbox.Checked == true)
             {
                 PortBox.Enabled = false;
@@ -49,6 +41,19 @@ namespace UnusedGuidSearcher
                 if (PortBox.Text == "-1")
                     PortBox.Text = "3306";
             }
+        }
+
+        private void LoginFormLoad(object sender, EventArgs e)
+        {
+            UserBox.Text = Settings.Default.User;
+            PasswordBox.Text = Settings.Default.Password;
+            DBBox.Text = Settings.Default.DB;
+            HostBox.Text = Settings.Default.Host;
+            PipeBox.Text = Settings.Default.Pipe;
+            PortBox.Text = Settings.Default.Port;
+
+            // sets the checkbox for a piped connection if the user has it saved in the settings
+            IsPipeCheckboxChecked();
         }
 
         private void SaveSettings()
@@ -118,25 +123,7 @@ namespace UnusedGuidSearcher
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            if (IsUsingNamedPipeCheckbox.Checked == true)
-            {
-                PortBox.Enabled = false;
-                PipeBox.Enabled = true;
-                PortBox.Text = string.Empty; // clear the string
-                PortBox.Text = "-1"; // sets port to -1 for a named pipe
-            }
-
-            if (IsUsingNamedPipeCheckbox.Checked == false)
-            {
-                PortBox.Enabled = true;
-                PipeBox.Enabled = false;
-                PortBox.Text = string.Empty; //clear the string
-                PortBox.Text = Settings.Default.Port; // saved setting
-
-                // this sets the default port again if someone used a named pipe and didn't have a value before that in the portbox box.
-                if (PortBox.Text == "-1")
-                    PortBox.Text = "3306";
-            }
+            IsPipeCheckboxChecked();
         }
 
         private void OkButton_Click(object sender, EventArgs e)
