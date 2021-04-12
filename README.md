@@ -22,6 +22,6 @@ Clicking on the link will automatically download the artifact containing a .exe 
 
 ## Authors
 
-- Originally created by DDuarte as [TC-Unused-Guid-Search](https://github.com/TrinityCore/TC-Unused-Guid-Search/commits/master) for [TrinityCore](https://github.com/TrinityCore/TrinityCore).
+- Originally created by [DDuarte](https://github.com/Kitzunu/Unused-Guid-Search/commits?author=DDuarte) as [TC-Unused-Guid-Search](https://github.com/TrinityCore/TC-Unused-Guid-Search/commits/master) for [TrinityCore](https://github.com/TrinityCore/TrinityCore).
 
 - Updated by Kitzunu as Unused-Guid-Search
