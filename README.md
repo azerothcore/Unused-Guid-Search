@@ -17,7 +17,7 @@ Clicking on the link will automatically download the artifact containing a .exe 
 
 - [Branch master (MySQL 8.0)](https://ci.appveyor.com/api/projects/Kitzunu/unused-guid-search/artifacts/UnusedGuidSearcher/bin.zip?job=Configuration:%20Release&branch=master) [![Build status](https://ci.appveyor.com/api/projects/status/xquvtmysa27lek08/branch/master?svg=true)](https://ci.appveyor.com/project/Kitzunu/unused-guid-search/branch/master)
 
-- [Branch 5.7 (MySQL ≤ MySQL 5.7)](https://ci.appveyor.com/api/projects/Kitzunu/unused-guid-search/artifacts/UnusedGuidSearcher/bin.zip?job=Configuration:%20Release&branch=5.7) [![Build status](https://ci.appveyor.com/api/projects/status/xquvtmysa27lek08/branch/master?svg=true)](https://ci.appveyor.com/project/Kitzunu/unused-guid-search/branch/5.7)
+- [Branch 5.7 (≤ MySQL 5.7)](https://ci.appveyor.com/api/projects/Kitzunu/unused-guid-search/artifacts/UnusedGuidSearcher/bin.zip?job=Configuration:%20Release&branch=5.7) [![Build status](https://ci.appveyor.com/api/projects/status/xquvtmysa27lek08/branch/master?svg=true)](https://ci.appveyor.com/project/Kitzunu/unused-guid-search/branch/5.7)
 
 
 ## Authors
