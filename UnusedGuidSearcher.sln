@@ -1,25 +1,20 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30804.86
-MinimumVisualStudioVersion = 10.0.40219.1
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnusedGuidSearcher", "UnusedGuidSearcher\UnusedGuidSearcher.csproj", "{D7C2FC89-F6DA-4999-B162-5C8199489A49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D7C2FC89-F6DA-4999-B162-5C8199489A49}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{D7C2FC89-F6DA-4999-B162-5C8199489A49}.Debug|Any CPU.Build.0 = Debug|x86
-		{D7C2FC89-F6DA-4999-B162-5C8199489A49}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D7C2FC89-F6DA-4999-B162-5C8199489A49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7C2FC89-F6DA-4999-B162-5C8199489A49}.Debug|x86.ActiveCfg = Debug|x86
+		{D7C2FC89-F6DA-4999-B162-5C8199489A49}.Debug|x86.Build.0 = Debug|x86
+		{D7C2FC89-F6DA-4999-B162-5C8199489A49}.Release|x86.ActiveCfg = Release|x86
+		{D7C2FC89-F6DA-4999-B162-5C8199489A49}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {AC550D4A-F14B-4A5C-88D0-3325EBDA4C2E}
 	EndGlobalSection
 EndGlobal
