@@ -3,9 +3,6 @@ A small tool to find gaps in the Database.
 
 [![CodeFactor](https://www.codefactor.io/repository/github/kitzunu/unused-guid-search/badge)](https://www.codefactor.io/repository/github/kitzunu/unused-guid-search)
 
-
-## Info
-
 | Branch | Supported Database |
 | :- | :- |
 | [Master](https://github.com/Kitzunu/Unused-Guid-Search/tree/master) | MySQL 8.0 |
