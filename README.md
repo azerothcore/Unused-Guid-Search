@@ -20,7 +20,7 @@ Clicking on the link will automatically download the artifact containing a .exe 
 - [Branch 5.7 (≤ MySQL 5.7)](https://ci.appveyor.com/api/projects/Kitzunu/unused-guid-search/artifacts/UnusedGuidSearcher/bin.zip?job=Configuration:%20Release&branch=5.7) [![Build status](https://ci.appveyor.com/api/projects/status/xquvtmysa27lek08/branch/master?svg=true)](https://ci.appveyor.com/project/Kitzunu/unused-guid-search/branch/5.7)
 
 
-## Authors
+## History
 
 - Originally created by [DDuarte](https://github.com/Kitzunu/Unused-Guid-Search/commits?author=DDuarte) as [TC-Unused-Guid-Search](https://github.com/TrinityCore/TC-Unused-Guid-Search/commits/master) for [TrinityCore](https://github.com/TrinityCore/TrinityCore).
 
