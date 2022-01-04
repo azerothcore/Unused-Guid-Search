@@ -15,9 +15,9 @@ A small tool to find gaps in the Database.
 
 Clicking on the link will automatically download the artifact containing a .exe file.
 
-- [Branch master (MySQL 8.0)](https://ci.appveyor.com/api/projects/Kitzunu/unused-guid-search/artifacts/UnusedGuidSearcher/bin.zip?job=Configuration:%20Release&branch=master) [![Build status](https://ci.appveyor.com/api/projects/status/xquvtmysa27lek08/branch/master?svg=true)](https://ci.appveyor.com/project/Kitzunu/unused-guid-search/branch/master)
+- [Branch master (MySQL 8.0)](https://github.com/azerothcore/Unused-Guid-Search/releases/download/8.0/Unused-Guid-Search-8.0.zip) [![Build status](https://ci.appveyor.com/api/projects/status/xquvtmysa27lek08/branch/master?svg=true)](https://ci.appveyor.com/project/Kitzunu/unused-guid-search/branch/master)
 
-- [Branch 5.7 (≤ MySQL 5.7)](https://ci.appveyor.com/api/projects/Kitzunu/unused-guid-search/artifacts/UnusedGuidSearcher/bin.zip?job=Configuration:%20Release&branch=5.7) [![Build status](https://ci.appveyor.com/api/projects/status/xquvtmysa27lek08/branch/master?svg=true)](https://ci.appveyor.com/project/Kitzunu/unused-guid-search/branch/5.7)
+- [Branch 5.7 (≤ MySQL 5.7)](https://github.com/azerothcore/Unused-Guid-Search/releases/download/5.7/Unused-Guid-Search-5.7.zip) [![Build status](https://ci.appveyor.com/api/projects/status/xquvtmysa27lek08/branch/master?svg=true)](https://ci.appveyor.com/project/Kitzunu/unused-guid-search/branch/5.7)
 
 
 ## History
